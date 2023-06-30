@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/flash_vertical1"
+    android:background="@drawable/flash_horizontal1"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnContactame"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:backgroundTint="#4BFF0404"
+        android:backgroundTint="#99FF0404"
         android:text="Contactame aquí"
         android:textColor="#FFFFFF"
         android:textSize="28sp"
@@ -22,18 +22,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:strokeColor="#C1DC7474"
+        app:strokeColor="#A4DC7474"
         app:strokeWidth="2dp" />
 
     <TextView
         android:id="@+id/AcercaDeMi"
         android:layout_width="0dp"
-        android:layout_height="111dp"
-        android:background="#7AFF0404"
+        android:layout_height="100dp"
+        android:background="#ABFF0404"
         android:paddingStart="10dp"
-        android:text="Soy Barry Allen \nMas conocido como Flash \nSoy un super heroe"
+        android:text="Soy Barry Allen \nMas conocido como Flash"
         android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
