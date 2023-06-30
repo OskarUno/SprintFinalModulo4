@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactameActivity">
+
+    <Button
+        android:id="@+id/btnWhatsAap2"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:text="WhatsApp"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnLinkedin2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnLinkedin2"
+        app:layout_constraintTop_toBottomOf="@+id/btnLinkedin2" />
+
+    <Button
+        android:id="@+id/btnLinkedin2"
+        android:layout_width="250dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="113dp"
+        android:text="Linkedin"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#C1CC0808"
+        android:contextClickable="false"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="Contactame"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="339dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="92dp"
+        android:text="Enviame un Mensaje al mail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWhatsAap2" />
+
+    <EditText
+        android:id="@+id/editTextMail"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/textEmail"
+        app:layout_constraintEnd_toEndOf="@+id/textEmail"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="@+id/textEmail"
+        app:layout_constraintTop_toTopOf="@+id/textEmail"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/btnEnviarMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Mail"
+        app:layout_constraintEnd_toEndOf="@+id/textEmail"
+        app:layout_constraintStart_toStartOf="@+id/textEmail"
+        app:layout_constraintTop_toBottomOf="@+id/textEmail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
