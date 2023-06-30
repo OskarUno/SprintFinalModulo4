@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SprintFinalModulo4</string>
+    <string name="boton_de_whathsapp">Boton de whathsapp</string>
+    <string name="boton_de_correo">Boton de correo</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="enviame_un_mensaje">Enviame un Mensaje</string>
+    <string name="imagen_linkedin">Imagen Linkedin</string>
 </resources>
